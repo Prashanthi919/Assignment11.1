@@ -1,0 +1,10 @@
+1)A SQLite open helper class allows database management, creation of database  and version management. This is the class 
+where we will create all the tables, and upgrade all the tables present.
+
+2)onUpgrade is a function available in SQLite DataBase which is used to update rows in a table.
+It is  for handling new database changes for any new version of our app. 
+
+3) Table layout with cursor is the best option to show SQLite database table information in Android Application.
+ Showing database information will be better suited with table layout.
+ Since table layout is not an adapter view, we can't use cursor adapter with it. So we have
+ to use table layout with cursor to show database table information. 
